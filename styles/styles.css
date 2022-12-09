@@ -57,7 +57,7 @@ a {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -308,9 +308,16 @@ button:hover {
 .main-content-portfolio {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 120px;
 }
 
-.our-team-text {
+.box-text {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.portfolio-box-text {
+    padding-top: 32px;
+    padding-left: 16px;
 }
