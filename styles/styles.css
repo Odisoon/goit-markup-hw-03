@@ -76,8 +76,7 @@ a {
 .buttons {
         display: flex;
         gap: 24px;
-        padding-bottom: 72px;
-        padding-top: 96px;
+        margin-bottom: 72px;
         padding-right: 0;
         justify-content: center;
         align-items: center;
@@ -93,6 +92,7 @@ a {
     margin-right: 72px;
 }
 
+
 .contact-info:hover {
     color: #4D5AE5;
 }
@@ -107,7 +107,7 @@ a {
 
 .web-text {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .web-text .list {
@@ -117,6 +117,7 @@ a {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 
 .contact-info {
     font-size: 16px;
@@ -143,6 +144,11 @@ a {
     padding-bottom: 100px;
 }
 
+
+.portfolio-container {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .header-1 {
     font-weight: 600;
@@ -182,6 +188,7 @@ button:hover {
 
 .container-targets {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container-subtitles {
@@ -195,7 +202,6 @@ button:hover {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-bottom: 120px;
 }
 
 .subtitles {
@@ -266,7 +272,7 @@ button:hover {
 }
 
 .pic-container {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .edge:hover {
@@ -309,7 +315,6 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .box-text {
@@ -320,4 +325,5 @@ button:hover {
 .portfolio-box-text {
     padding-top: 32px;
     padding-left: 16px;
+    padding-bottom: 32px;
 }
